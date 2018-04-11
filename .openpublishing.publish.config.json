@@ -33,16 +33,16 @@
         ]
       },
       "ECMA2Yaml": {
-        "SourceXmlFolder": "dotnet/xml",
-        "OutputYamlFolder": "dotnet/api",
+        "SourceXmlFolder": "bot-service/xml",
+        "OutputYamlFolder": "bot-service/api",
         "Flatten": true,
-        "id": "dotnet-template"
+        "id": "bot-service"
       },
       "SplitTOC": [
-        "dotnet/api/dotnet-template/toc.yml"
+        "bot-service/api/bot-service/toc.yml"
       ],
       "DiffFolder": [
-        "dotnet/api"
+        "bot-service/api"
       ]
     }
   ],
